@@ -64,6 +64,10 @@ public class Movie {
        return count;
    }
 
+   public void setCount(Integer count) {
+        this.count = count;
+   }
+
    public String getImage() {
        return image;
    }
@@ -74,8 +78,5 @@ public class Movie {
 
     public Set<Score> getScores() {
         return scores;
-    }
-
-    public void setCount(int size) {
     }
 }
